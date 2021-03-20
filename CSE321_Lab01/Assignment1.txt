@@ -1,0 +1,28 @@
+#Task 1
+->cd Desktop
+->cat>excalibur.txt
+->chmod u=rwx excalibur.txt
+->chmod g=rx excalibur.txt
+->chmod o=x excalibur.txt
+->mkdir mydirectory
+->cp excalibur.txt mydirectory
+->rm excalibur.txt
+
+
+
+#Task 2
+->cd mydirectory
+->rm -r -i *
+
+
+#Task3
+-> find . -type f -name "*.txt"
+
+#Task4
+-> grep "Anik" *
+
+#Task5
+->sed '12,18!d' a.txt
+
+#Task6
+->ls -la
